@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-//ignore the Deseralization and seralization
+//ignore Converstionthe Deseralization and seralization
 
 @JsonIgnoreProperties(value = {"gender","fullName"},allowGetters = true)
 
