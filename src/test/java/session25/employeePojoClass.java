@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 //ignore Converstionthe Deseralization and seralization
 
+
 @JsonIgnoreProperties(value = {"gender","fullName"},allowGetters = true)
 
 public class employeePojoClass {
@@ -16,9 +17,10 @@ public class employeePojoClass {
 	private String gender;
 	private int age;
 	
-//	@JsonIgnore
-	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
-	private double salary;
+//	@JsonIgnore ---> ignore serilaztion and deserilazation 
+	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY) --> Ignore deserilization
+	private double salary; --> ignore the converstion deserelization and serilazation
+	
 	private boolean isMarried;
 	
 	
