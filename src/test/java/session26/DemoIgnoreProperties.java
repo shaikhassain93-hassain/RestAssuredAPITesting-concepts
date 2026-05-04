@@ -8,7 +8,10 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import session26.Employee;
-
+/*know properties --> declared in POJO class
+Unknows properties --> not decleared in POJO class
+if knows missed in payload --> Shows default values
+if unknows declared in payload --> thows error Unrecognized filed exceptions*/
 public class DemoIgnoreProperties {
 
 	@Test
