@@ -14,6 +14,8 @@ Install Node.js
 	Insytall NPM(install along Node.js
 	json-server 
 	Create environement variables
+
+	//json-server file name in cmd prompt
 */
 	
 
