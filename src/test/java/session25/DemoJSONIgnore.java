@@ -35,7 +35,7 @@ public class DemoJSONIgnore {
 		String employeeJSON = objMapper.writerWithDefaultPrettyPrinter().writeValueAsString(emp1);
 
 		System.out.println(employeeJSON);
-
+-------------------------------------------------------------------------------------------------
 		// Deserialization: JSON Payload String to Employee Class Object
 		String payload = "{\r\n"
 				+ "  \"firstname\" : \"Suresh\",\r\n"
