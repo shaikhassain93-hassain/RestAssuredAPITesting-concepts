@@ -1,0 +1,13 @@
+{
+  "firstName": "Amod",
+  "lastName": "Mahajan",
+  "age": 28,
+  "salary": 10000.56,
+  "IsMarried": true,
+  "Hobbies": ["Music", "computers", "Games"],
+  "TechSkill": {
+    "Programming language": "Java",
+    "WebAutomation": "Selenium",
+    "API testing": "Rest Assured"
+  }
+}
