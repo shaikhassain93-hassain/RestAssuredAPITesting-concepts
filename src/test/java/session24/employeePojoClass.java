@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 */
 
 //@JsonInclude(JsonInclude.Include.NON_NUll)
-@JsonInclude(JsonInclude.Include.NON_EMPTY)
+@JsonInclude(JsonInclude.Include.NON_EMPTY)  --> ignore the defualt empty and null values in outputs
 public class employeePojoClass {
 
 	private String firstname;
