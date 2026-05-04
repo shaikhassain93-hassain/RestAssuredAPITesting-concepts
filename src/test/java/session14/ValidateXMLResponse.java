@@ -144,7 +144,9 @@ public class ValidateXMLResponse {
 		Assert.assertEquals(response.statusCode()/*actual status code*/,/*expected status code*/200,"Check for status code");
 		
 		response.then().body("Pet.name", Matchers.equalTo("doggie"));
-		
-		
+	/*Or better (more reliable):
+
+response.then().body("Pet.name.text()", Matchers.equalTo("doggie"));	
+		*/
 	}
 }
