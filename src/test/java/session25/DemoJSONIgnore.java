@@ -21,11 +21,11 @@ public class DemoJSONIgnore {
 		//create payload
 		employeePojoClass emp1 = new employeePojoClass();
 		emp1.setFirstname("Suresh");
-		emp1.setLastname("Mehra");
+		//emp1.setLastname("Mehra"); default value: NUll
 		emp1.setGender("Male");
-		emp1.setAge(35);
+		//emp1.setAge(35); default value: 0
 		emp1.setSalary(10000);
-		emp1.setMarried(true);
+		//emp1.setMarried(true); default value: false
 		emp1.setFullName("Suresh Mehra");
 	
 		//serialization : convert employee class object to json payload as string
