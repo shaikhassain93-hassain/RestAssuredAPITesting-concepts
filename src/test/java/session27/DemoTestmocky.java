@@ -14,7 +14,7 @@ public class DemoTest {
 	@Test
 	public void test1()
 	{
-		
+		Creates mocky API as per requirements.
 		//https://run.mocky.io/v3/5052e820-5e78-407d-a2ce-7bdd4cb73e06
 		
 		//create request specification
