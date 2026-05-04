@@ -42,7 +42,7 @@ public class ValidateJsonResponseBody {
 		
 		JsonPath jsonPathView  = responseBody.jsonPath();
 		
-		//x.data[4].first_name
+		//x.data[4].first_name ***json path finder
 		String firstName = jsonPathView.get("data[0].first_name");
 		
 		System.out.println("email address:"+ jsonPathView.get("data[1].avatar"));
