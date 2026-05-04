@@ -4,6 +4,14 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+/*
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.14.1</version>
+</dependency>
+*/
 
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class employeePojoClass {
