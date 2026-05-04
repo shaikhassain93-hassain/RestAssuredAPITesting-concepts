@@ -30,11 +30,13 @@ public class DemoIgnoreProperties {
 		
 		ObjectMapper objectMapper = new ObjectMapper();
 		
-		
+------------------------------------------------------------------------------------		
 		//Configuration to ignore unknown properties of POJO class
 		objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+
+		//@JsonIgnoreProperties(ignoreUnknown = true) In POJO class comment it, not necessary.
 		
-		
+----------------------------------------------------------------------------		
 		//convert JSON String (employeeJSON) to Class object (Employee)
 		
 		Employee emp2 = objectMapper.readValue(payload, Employee.class);
