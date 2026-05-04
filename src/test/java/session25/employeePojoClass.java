@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 //ignore Converstionthe Deseralization and seralization
 
 
-@JsonIgnoreProperties(value = {"gender","fullName"},allowGetters = true)
+@JsonIgnoreProperties(value = {"gender","fullName"},allowGetters = true) --> ignore serilaztion and deserilazation 
 
 public class employeePojoClass {
 
