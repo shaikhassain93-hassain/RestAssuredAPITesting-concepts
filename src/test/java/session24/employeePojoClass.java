@@ -12,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
     <version>2.14.1</version>
 </dependency>
 */
-
+//@JsonInclude(JsonInclude.Include.NON_NUll)
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class employeePojoClass {
 
