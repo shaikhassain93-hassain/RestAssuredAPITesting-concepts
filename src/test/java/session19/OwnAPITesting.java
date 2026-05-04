@@ -9,7 +9,10 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-
+/*Install Node.js
+	Insytall NPM(install along Node.js
+	json-server */
+	
 
 public class OwnAPITesting {
 
